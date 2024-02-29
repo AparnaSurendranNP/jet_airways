@@ -40,7 +40,7 @@
 }
 
 #bg-image {
-    background: url("../img/LandingPageBanner.jpg") no-repeat;
+    background: url("./img/LandingPageBanner.jpg") no-repeat;
     background-position: center center;
     height: 85vh;
     background-size: cover;
@@ -114,7 +114,7 @@
 }
 
 #raw1 .image {
-    background-image: url("../img/LandingPage-1.jpg");
+    background-image: url("https://www.jetairways.com/assets/img/landing-page/Landing%20page%20-%20Desktop%201.a.jpg");
 }
 
 #raw2 .text .head::after {
@@ -128,7 +128,7 @@
 }
 
 #raw2 .image {
-    background-image: url("../img/LandingPage-2.png");
+    background-image: url("https://www.jetairways.com/assets/img/landing-page/landing-page-b.png");
 }
 
 .btn {
@@ -249,7 +249,7 @@
     #bg-image {
         margin-top: 50px;
         background-size: cover !important;
-        background: url("../img/landingPageBannermobile-min.jpg") no-repeat;
+        background: url("https://www.jetairways.com/assets/img/landing-page/landingPageBannermobile-min.jpg") no-repeat;
     }
 
     .tagline {
