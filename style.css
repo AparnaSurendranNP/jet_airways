@@ -40,7 +40,7 @@
 }
 
 #bg-image {
-    background: url("/img/LandingPageBanner.jpg") no-repeat;
+    background: url("./img/LandingPageBanner.jpg") no-repeat;
     background-position: center center;
     height: 85vh;
     background-size: cover;
@@ -114,7 +114,7 @@
 }
 
 #raw1 .image {
-    background-image: url("/img/LandingPage-1.jpg");
+    background-image: url("../Bootstrap/img/LandingPage-1.jpg");
 }
 
 #raw2 .text .head::after {
@@ -128,7 +128,7 @@
 }
 
 #raw2 .image {
-    background-image: url("/img/LandingPage-2.png");
+    background-image: url("../Bootstrap/img/LandingPage-2.png");
 }
 
 .btn {
@@ -249,7 +249,7 @@
     #bg-image {
         margin-top: 50px;
         background-size: cover !important;
-        background: url("/img/landingPageBannermobile-min.jpg") no-repeat;
+        background: url("../Bootstrap/img/landingPageBannermobile-min.jpg") no-repeat;
     }
 
     .tagline {
@@ -398,22 +398,4 @@
         width: 30px;
     }
 
-}
-
-@media (max-height:512) {
-    /* .back-to-top i{
-        display: none;
-    } */
-    /* .back-to-top {
-        visibility: hidden;
-        opacity: 0;
-        right: 15px;
-        bottom: 15px;
-        z-index: 996;
-        background: #F0AB00;
-        width: 40px;
-        height: 40px;
-        border-radius: 4px;
-        transition: all 0.4s;
-    } */
 }
