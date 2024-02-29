@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.nav1 {
+    background-color: rgba(15, 32, 75, 255);
+}
+
+.logo img {
+    width: 190px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-toggler {
+    border-style: none;
+}
+
+.navbar-toggle-icon i {
+    color: white;
+}
+
+#navbarNav a {
+    color: white;
+}
+
+.mobile-navigation {
+    display: none;
+}
+
+.textNav {
+    font-size: 16px;
+}
+
+.textNav:hover {
+    color: #F0AB00 !important;
+}
+
+#bg-image {
+    background: url("/img/LandingPageBanner.jpg") no-repeat;
+    background-position: center center;
+    height: 85vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.tagline {
+    height: 55%;
+    display: flex;
+    align-items: end;
+}
+
+#raw1 {
+    display: flex;
+    gap: 50px;
+    padding: 70px 32px;
+}
+
+#raw2 {
+    display: flex;
+    gap: 50px;
+    padding: 0px 32px 70px 32px;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text .head {
+    font-size: 35px;
+    position: relative;
+    line-height: 1;
+}
+
+.image-div {
+    width: 50%;
+}
+
+#raw1 .image-div p {
+    display: none;
+    font-size: 16px;
+}
+
+#raw1 .text .head::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    position: absolute;
+    top: 85px;
+    left: 2px;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.image {
+    width: 100%;
+    height: 465px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#raw1 .image {
+    background-image: url("/img/LandingPage-1.jpg");
+}
+
+#raw2 .text .head::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    position: absolute;
+    top: 50px;
+    left: 2px;
+}
+
+#raw2 .image {
+    background-image: url("/img/LandingPage-2.png");
+}
+
+.btn {
+    background-color: rgba(15, 32, 75, 255);
+    color: #F0AB00;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.journey-section {
+    background-color: rgba(15, 32, 75, 255);
+}
+
+#journey {
+    padding: 50px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.journey-title {
+    color: #FECB00;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    line-height: 1;
+}
+
+.line {
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    top: 70px;
+    left: 40%;
+}
+
+.TextBlock {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 2;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 32px;
+    margin: 0;
+}
+
+.last {
+    display: flex;
+    gap: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.last-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-text p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #F0AB00;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.back-to-top:hover {
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+    .logo img {
+        width: 250px;
+        height: 6%;
+    }
+
+    #bg-image {
+        margin-top: 50px;
+        background-size: cover !important;
+        background: url("/img/landingPageBannermobile-min.jpg") no-repeat;
+    }
+
+    .tagline {
+        height: 90%;
+    }
+
+    .tagline h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tagline img {
+        width: 70%;
+    }
+
+    #raw1 {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text .head {
+        font-size: 19px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #raw1 .text p {
+        display: none;
+    }
+
+    .image-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #raw1 .image-div p {
+        display: flex;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 230px;
+    }
+
+    #raw1 .text .head::after {
+        top: 50px;
+        left: 40%;
+    }
+
+    #raw2 {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text .head {
+        font-size: 19px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .image-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #raw2 .text .head::after {
+        top: 50px;
+        left: 40%;
+    }
+
+    #journey {
+        padding: 40px 10px;
+    }
+
+    .container {
+        gap: 30px;
+    }
+
+    .row p {
+        text-align: center;
+    }
+
+    .last {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .last .textNav {
+        font-size: 14px;
+    }
+
+    .mobile-navigation {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .mobille-head {
+        display: flex;
+        align-items: start;
+    }
+
+    .mobille-head i {
+        color: white;
+    }
+
+    .mobille-head img {
+        width: 330px;
+    }
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contents span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contents p {
+        color: white;
+        margin: 0;
+    }
+
+    .contents .line {
+        width: 30px;
+    }
+
+}
+
+@media (max-height:512) {
+    /* .back-to-top i{
+        display: none;
+    } */
+    /* .back-to-top {
+        visibility: hidden;
+        opacity: 0;
+        right: 15px;
+        bottom: 15px;
+        z-index: 996;
+        background: #F0AB00;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        transition: all 0.4s;
+    } */
+}
